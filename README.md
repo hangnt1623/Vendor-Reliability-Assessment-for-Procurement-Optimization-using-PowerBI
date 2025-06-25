@@ -129,7 +129,7 @@ This project also make other tables from these 5 tables, these are:
 
 Explain the step-by-step approach taken to solve the problem.  
 
-1️⃣ Empathize  
+**1️⃣ Empathize**
 
 (1) 5W1H 
 
@@ -143,7 +143,7 @@ Explain the step-by-step approach taken to solve the problem.
 
 <img width="322" alt="{02E2FE73-8877-42E6-9DE5-58C920D3D14A}" src="https://github.com/user-attachments/assets/c138b168-7918-41a2-a12c-8f31f8f939d9" />
 
-2️⃣ Define point of view  
+**2️⃣ Define point of view**
 
 (1) North Star Metric
 
@@ -154,13 +154,11 @@ Explain the step-by-step approach taken to solve the problem.
 <img width="351" alt="{EE391BB0-E21C-4BB0-BA43-E5A6E43ACF94}" src="https://github.com/user-attachments/assets/154e3b98-3269-4b75-b699-995d6c39662c" />
 
 
-3️⃣ Ideate  
+**3️⃣ Ideate**
 
 <img width="432" alt="{F2B06667-9698-4565-B028-D5DCD83045E0}" src="https://github.com/user-attachments/assets/ba5eb8c3-587a-4e71-bd56-fc80bd288d68" />
 
-
-
-4️⃣ Prototype and review  
+**4️⃣ Prototype and review**
 
 This part is presented in Dashboard.
 
@@ -182,27 +180,21 @@ This part is presented in Dashboard.
 **📌 Analysis 1**
 
 ***Oberservations***
-1. Vendor Reliability Score (North Star Metric) is strong but with notable past fluctuations:
+- Vendor Reliability Score (North Star Metric) is strong but with notable past fluctuations:
+  + Overall, the Vendor Reliability Score is 8.80 and the Vendor Trust Score is very high (9.09), indicating generally good supplier reliability
+  + However, the VENDOR RELIABILITY SCORE OVER TIME chart shows significant drops in Q3 of 2012, despite an impressive recovery afterward.
 
-- Overall, the Vendor Reliability Score is 8.80 and the Vendor Trust Score is very high (9.09), indicating generally good supplier reliability.
-- However, the VENDOR RELIABILITY SCORE OVER TIME chart shows significant drops in Q3 of 2012, despite an impressive recovery afterward.
+- Key components of the Reliability Score show high performance:
+  + The On-time Delivery Rate is exceptionally good (99.36%)
+  + The Fulfilled Stocks Rate is 96.00% overall, and notably, Rejected Stocks has sharply decreased from high levels (8.16% in 2011, 11.21% in 2012) to less 5%  in 2013 and 2014, demonstrating significant improvement in quantity and quality fulfillment
+  + The Average Lead Time is 19.45 days, a key contributing factor to the score.
 
-2. Key components of the Reliability Score show high performance:
+- Clear differentiation in Reliability across vendors and shipping methods:
+  + The dashboard highlights vendors with the Highest Vendor Reliability Score (>9.30, e.g., Cruger Bike Company, Expert Bike Co) and those with the Lowest Vendor Reliability Score (<3.06, e.g., Merit Bikes, G & K Bicycle Corp.)
+  + The Overseas shipping method has a significantly lower Vendor Reliability Score (8.33) compared to other methods (8.80 - 8.85), indicating a specific area of weakness.
 
-- The On-time Delivery Rate is exceptionally good (99.36%)
-- The Fulfilled Stocks Rate is 96.00% overall, and notably, Rejected Stocks has sharply decreased from high levels (8.16% in 2011, 11.21% in 2012) to less 5%  in 2013 and 2014, demonstrating significant improvement in quantity and quality fulfillment
-- The Average Lead Time is 19.45 days, a key contributing factor to the score.
-
-3. Clear differentiation in Reliability across vendors and shipping methods:
-
-- The dashboard highlights vendors with the Highest Vendor Reliability Score (>9.30, e.g., Cruger Bike Company, Expert Bike Co) and those with the Lowest Vendor Reliability Score (<3.06, e.g., Merit Bikes, G & K Bicycle Corp.).
-- The Overseas shipping method has a significantly lower Vendor Reliability Score (8.33) compared to other methods (8.80 - 8.85), indicating a specific area of weakness.
-
-
-
-4. Procurement Costs are volatile and increasing, independent of Reliability Score:
-
-- Total Cost has sharply increased and fluctuated heavily from mid-2013 to late 2014, despite improvements in the components contributing to the Vendor Reliability Score. This points to a significant cost management challenge not directly reflected in reliability metrics.
+- Procurement Costs are volatile and increasing, independent of Reliability Score:
+  + Total Cost has sharply increased and fluctuated heavily from mid-2013 to late 2014, despite improvements in the components contributing to the Vendor Reliability Score. This points to a significant cost management challenge not directly reflected in reliability metrics.
 
 ***Recommendations***
 
