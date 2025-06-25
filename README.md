@@ -175,73 +175,111 @@ This part is presented in Dashboard.
 
 ### 🔍 Dashboard Preview & Analysis
 
-#### 1️⃣ Dashboard 1: Overview
+#### 1️⃣ Dashboard 1: Overview & Trend
+<img width="760" alt="{1884184B-17A2-4B8B-8F3F-9C0A8F0DFE0C}" src="https://github.com/user-attachments/assets/8132ef8f-d68e-4e19-ab7d-d01a19bc0322" />
 
 
 **📌 Analysis 1**
 
 ***Oberservations***
-- Profitability (North Star Metric): Overall Profit Margin is 11.61%, showing stability over time, despite fluctuations. Sales and Profit grow in parallel (Sales YOY: 51.55%).
-- Customer Health: High Retention Rate (92.23%) and low Churn Rate (7.77%) indicate strong customer loyalty.
-- Category Profit Disparity: Technology and Office Supplies show strong Profit Margins (both ~14%), significantly outperforming Furniture (only 7% Profit Margin).
-- Segment Profit Uniformity: All customer segments (Home Office, Corporate, Consumer) exhibit similar Profit Margins (~12%). However, Corporate has the highest Return Rate compared to Home Office and Consumer.
+1. Vendor Reliability Score (North Star Metric) is strong but with notable past fluctuations:
+
+- Overall, the Vendor Reliability Score is 8.80 and the Vendor Trust Score is very high (9.09), indicating generally good supplier reliability.
+- However, the VENDOR RELIABILITY SCORE OVER TIME chart shows significant drops in Q3 of 2012, despite an impressive recovery afterward.
+
+2. Key components of the Reliability Score show high performance:
+
+- The On-time Delivery Rate is exceptionally good (99.36%)
+- The Fulfilled Stocks Rate is 96.00% overall, and notably, Rejected Stocks has sharply decreased from high levels (8.16% in 2011, 11.21% in 2012) to less 5%  in 2013 and 2014, demonstrating significant improvement in quantity and quality fulfillment
+- The Average Lead Time is 19.45 days, a key contributing factor to the score.
+
+3. Clear differentiation in Reliability across vendors and shipping methods:
+
+- The dashboard highlights vendors with the Highest Vendor Reliability Score (>9.30, e.g., Cruger Bike Company, Expert Bike Co) and those with the Lowest Vendor Reliability Score (<3.06, e.g., Merit Bikes, G & K Bicycle Corp.).
+- The Overseas shipping method has a significantly lower Vendor Reliability Score (8.33) compared to other methods (8.80 - 8.85), indicating a specific area of weakness.
+
+
+
+4. Procurement Costs are volatile and increasing, independent of Reliability Score:
+
+- Total Cost has sharply increased and fluctuated heavily from mid-2013 to late 2014, despite improvements in the components contributing to the Vendor Reliability Score. This points to a significant cost management challenge not directly reflected in reliability metrics.
 
 ***Recommendations***
-- Enhance Furniture Profitability: Deep dive into the 7% Profit Margin of Furniture to identify cost or pricing issues. This is crucial for improving the overall Profit Margin.
-- Capitalize on Top Categories: Continue investing in Technology and Office Supplies to leverage their strong (~14%) Profit Margins.
-- Address Corporate Returns: Investigate the high Return Rate in the Corporate segment to protect its ~12% Profit Margin.
-- Sustain Overall Growth: Maintain strategies driving strong sales growth (51.55% YOY) and high retention to support the stable 11.61% Profit Margin.
 
-#### 2️⃣ Dashboard 2: Market Tracker
-<img width="744" alt="{B71DE64E-B43A-4DB4-B3A9-6D5887CA3814}" src="https://github.com/user-attachments/assets/73ef3283-2ba2-44aa-ab09-ea95603a863a" />
+- Target Low-VRS Vendors: Focus on improving specific low-scoring vendors (e.g., Merit Bikes) across all VRS components
+- Improve Overseas Shipping Reliability: Investigate and address the lower VRS for Overseas shipping
+- Optimize Costs: Analyze and manage the recent sharp increase and volatility in Total Cost without compromising reliability
+- Leverage Top Vendors: Strengthen partnerships with high-VRS suppliers (e.g., Cruger Bike Company)
+- Set VRS Benchmarks: Define clear performance targets for VRS and its components
+
+
+
+
+#### 2️⃣ Dashboard 2: Detail & Analysis I
+<img width="752" alt="{3A31B8E1-844B-4613-B8D4-F8917375696B}" src="https://github.com/user-attachments/assets/14006539-10b9-4e04-897e-cf590f0df4af" />
+
 
 **📌 Analysis 2**
 
 ***Oberservations***
-- Strong & Stable Markets:
-   + APAC: Largest sales share (28.36%), healthy 12.16% Profit Margin, and good 84.91% Retention
-   + EU: High sales share (23.24%), highest Profit Margin (12.69%), but also the highest Return Rate (6.21%)
-   + US: Significant sales share (18.17%), strong 12.47% Profit Margin, but moderate 5.95% Return Rate
-- Promising Market with Challenges:
-   + Africa: Good 11.34% Profit Margin with exceptionally low 0.04% Return Rate, but suffers from very low 53.21% Retention and high 46.79% Churn
-- Markets Needing Urgent Review:
-  + LATAM: Moderate 10.24% Profit Margin and moderate Return Rate (5.82%)
-  + EMEA: Lowest Profit Margin (5.45%) and very high 40.85% Churn Rate
-  + Canada: Exceptionally high 26.62% Profit Margin, but critically unsustainable with 93.44% Churn Rate and minimal sales share (0.53%)
+
+- Historical Performance Trends
+  + Ontime Delivery: Consistently at 100% across the board, demonstrating overall strong performance in meeting delivery deadlines
+  + Fulfilled Stocks: Experienced a notable dip in Q1 2013 before recovering and stabilizing at high levels (around 96-97%). This highlights the potential for volatility in stock fulfillment, which could impact vendor reliability.
+
+- Lead Times & On-Time Delivery
+  + Overseas: Significantly longer lead times (17.1 days total) and the only method with a low On-time Delivery Rate (83.43%). This is a major detractor from its reliability
+  + All Other Methods (Cargo, Express, Overnight, Truck): Consistent and shorter lead times (14.0 days total) with perfect 100% On-time Delivery Rates, indicating high reliability in meeting deadlines
+
+- Fulfilled & Rejected Stocks
+  + Cargo: While handling the largest volume of fulfilled stock (31.01%), it also has the highest percentage of rejected stock (39.36%). This indicates a significant quality or accuracy issue that undermines reliability despite on-time delivery
+  + Overseas: Handles the smallest volume of fulfilled stock (10.49%) and has a relatively low rejected stock rate (10.29%). Its primary issue is timing, not necessarily stock accuracy
+  + Overnight: Appears to be the most reliable in terms of stock fulfillment (highest fulfilled rate, lowest rejected rate).
 
 ***Recommendations***
-- Sustain & Optimize Strong Markets
-  + APAC: Continue investment to leverage scale and 12.16% PM
-  + EU: Prioritize reducing its 6.21% Return Rate to maximize the 12.69% PM
-  + US: Focus on improving retention and reducing its 5.95% Return Rate to solidify 12.47% PM.
-- Develop Africa's Retention: Invest in strategies to boost retention and reduce churn in Africa, capitalizing on its good 11.34% PM and minimal returns
-- Strategic Review for Challenging Markets:
-  + LATAM: Optimize operations and address its 5.82% Return Rate to enhance its 10.24% PM
-  + EMEA: Requires a major strategic overhaul to address the 5.45% PM and very high churn
-  + Canada: Investigate the extreme churn (93.44%) despite high 26.62% PM; unsustainable for growth
+- Channel Restructuring & De-risking:
+  + Overseas: Reduce reliance for time-sensitive goods. Shift to Express/Overnight for high-priority items, accepting higher initial costs to avoid Total Cost of Failure (TCF) from delays and lost sales
+  + Cargo: Implement strict at-source Quality Control (QC). Enforce a "Zero Tolerance" policy for rejected goods, compelling vendors to improve or be replaced
 
+- Action-Oriented "Vendor Reliability Score":
+  + Integrate Risk Factors: The score must reflect not just performance but also potential risk (e.g., volatility, single-source dependency)
+  + Link Score to Order Allocation: Reward high-scoring vendors with increased orders; reduce/eliminate for low scores. Create financial leverage to drive improvement
 
-#### 3️⃣ Dashboard 3: Product Tracker
-<img width="735" alt="{0A5C27CE-4293-4B59-9103-9B1DAFFF741E}" src="https://github.com/user-attachments/assets/77e35abe-adf9-4909-89b6-0faedee1c865" />
+- Proactive Forecasting & Early Warning Systems:
+  + Real-time Visibility Platform: Invest in technology to track orders/inventory status to detect anomalies early
+  + Predictive Analytics: Use data to anticipate risks (e.g., potential delays, stock shortages) before they materialize, enabling proactive decision-making
+
+#### 3️⃣ Dashboard 3: Detail & Analysis II
+<img width="754" alt="{65F1ED17-96B0-419B-9457-02D88364CB64}" src="https://github.com/user-attachments/assets/037e054b-823c-4fa7-bd8f-81aa6d4b07fc" />
 
 **📌 Analysis 3**
 
 ***Oberservations***
-- Product Category Performance:
-  + Technology (37.53% sales) & Furniture (32.51% sales) are top revenue, but Technology has Profit Margin increase gradually between 13~14%
-  + Office Supplies (29.96% sales) shows consistently low and declining Profit Margin (~3-5%), significantly impacting overall PM
-- Customer Segment Health by Category:
-  + Office Supplies has the highest Retention Rate (~89.32%)
-  + Furniture has the highest Return Rate (~6-7.5%) and the lowest Profit Margin, with sub-categories even showing negative PM
-- Sub-Category Profitability:
-  + High PM: Paper (24.24%), Labels (20.45%), Envelopes (17.32%), Copiers (17.13%) (Office Supplies); Accessories (17.30%) (Technology)
-  + Low/Negative PM: Tables (-8.46%), Chairs (9.35%) (Furniture); Machines (7.56%) (Technology); Storage (9.62%), Supplies (9.29%) (Office Supplies)
+- Cost Structure by Ship Method (Focus: Hidden Costs & Scale):
+  + Cargo Dominance: "Cargo" is the overwhelmingly largest cost driver in both Subtotal Cost (29.24M) and Freight (1.59M / 39.66% of total freight). Critically, its Tax Amount is disproportionately high (2.34M / 45.83% of total tax), suggesting potential inefficiencies or unfavorable tax structures unique to Cargo shipments.
+  + Overseas Cost vs. Performance: While "Overseas" has a significant Subtotal Cost (7.25M), its Freight (0.58M) and Tax (0.58M) are not the highest. This reinforces that its core problem (from Analysis I) is poor on-time delivery and long lead times, not necessarily inflated direct costs.
+
+- Vendor Performance Deep Dive (Focus: Specific Weaknesses & Strengths):
+  + Overall Strong On-time Delivery: Most vendors achieve 100% on-time delivery, which is excellent. However, a crucial few (implicitly causing the 99.36% average in Vendor Details, but explicitly seen in "Overseas" in Analysis I) are dragging down the overall reliability.
+  + Critical Unreliability Flag: Proseware, Inc.: This vendor stands out as a major red flag with an extremely low Vendor Trust Score (1.25) and an "Unreliable" Supplier Reliability Score, despite a decent 94.80% Fulfilled Stocks Rate. Their significant Sub Total Cost (2.34M) indicates they represent a material operational risk.
+  + Top Performers & Leverage: "Superior Bicycles" (highest Sub Total Cost, excellent performance, highest Credit Rating) represents a crucial strategic partner.
+
+- Vendor Reliability vs. Trust Score (Focus: Metric Consistency & Actionability):
+  + General Positive Correlation: Higher "Vendor Trust Score" generally correlates with higher "Vendor Reliability Score," as expected. Top Credit Rating vendors (Rating 1) exhibit both high trust and reliability.
+  + Critical Anomaly: Credit Rating 5 vs. 4: The data shows a Credit Rating 5 vendor with a higher "Vendor Reliability Score" (approx. 7.8) than a Credit Rating 4 vendor (approx. 7.5). This inconsistency is a major flaw in the current scoring methodology or Credit Rating definition. If the COO relies on these scores, this discrepancy can lead to flawed strategic decisions.
 
 ***Recommendations***
-- Maximize Technology: Invest in Technology to capitalize on its increasing 13-14% PM
-- Urgent Office Supplies Review: Investigate reasons for Office Supplies' declining ~3-5% PM despite high retention; focus on high-PM sub-categories
-- Restructure Furniture: Address high returns and eliminate/re-evaluate loss-making Furniture (e.g., Tables: -8.46% PM)
-- Optimize Sub-Categories: Promote high-PM items (Paper, Labels) and improve/review low-PM items (Machines, Storage, Supplies)
+- Optimize Shipping Portfolio for True Value:
+  + Action: Shift volume from high-risk Cargo (high tax/rejections) and slow Overseas. Prioritize faster, reliable channels, even if direct freight costs are higher
+  + Goal: Minimize Total Cost of Failure (TCF) from delays and rejections
+
+- Implement Tiered Vendor Management:
+  + Action: Categorize vendors (e.g., Strategic, At-Risk) based on a refined "Vendor Reliability Score"
+  + Goal: For "At-Risk" vendors, enforce "Improve or Exit." For "Strategic" vendors, deepen partnerships to secure long-term reliability
+
+- Elevate "Vendor Reliability Score" to Predictive Tool:
+  + Action: Transform the "Vendor Reliability Score" into a "Predictive & Early Warning Tool"
+  + Goal: Incorporate external risks and forecasting data so the score signals potential issues before they occur, enabling proactive strategic decisions
 
 
 ---
