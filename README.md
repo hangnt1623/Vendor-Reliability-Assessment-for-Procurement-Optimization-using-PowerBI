@@ -28,14 +28,19 @@ The goal is to
 ### 👤 Who is this project for?  
 
 ✔️ Chief Executive Officer (CEO)
+
 ✔️ Chief Operating Officer (COO)
+
 ✔️ Chief Procurement Officer (CPO)/Head of Purchasing
 
 ###  ❓Business Questions:  
 
 ✔️ Assess vendor fulfillment accuracy by analyzing whether suppliers consistently provide the correct and sufficient quantities of goods and materials as ordered
+
 ✔️ Evaluate vendor delivery performance by understanding how effectively our suppliers are meeting agreed-upon delivery timelines
+
 ✔️ Determine supplier credibility and reliability by examining factors that demonstrate their trustworthiness and consistent adherence to commitments
+
 ✔️ Optimize procurement costs by analyzing vendor pricing and overall expenditure to ensure the best value for Adventure Works
 
 ### 🎯Project Outcome:  
@@ -64,7 +69,7 @@ There are 5 tables in the dataset:
 - Purchasing Product Vendor table: store information about cross-reference table mapping vendors with the products they supply
 - Purchasing Vendor table: store information about companies from whom Adventure Works Cycles purchases parts or other goods
 
-This project also make other table from these 5 tables, these are:
+This project also make other tables from these 5 tables, these are:
 - Product Price table: store information about product price
 - Purchase Order: store information about individual products associated with a specific purchase order & general purchase order information
 - Date: store information about the date
@@ -132,26 +137,26 @@ Explain the step-by-step approach taken to solve the problem.
 
 (2) Empathy Map
 
-<img width="550" alt="{8C24B7EC-F3DB-4B3E-AD70-F8580E23482B}" src="https://github.com/user-attachments/assets/f3af8ac1-fb2d-4abc-87a3-35b41bc7e30f" />
+<img width="744" alt="{57C97CED-896E-4C4C-B992-EC7B95450C31}" src="https://github.com/user-attachments/assets/ba9f9158-33b3-495b-9920-1dd97f2c710b" />
 
 (3) Stakeholder need
 
-<img width="275" alt="{D50B829C-E92C-4DEB-BD63-1D3AA8FEF8A0}" src="https://github.com/user-attachments/assets/15065acb-0f3f-468f-b8ef-dd8b4c8de902" />
+<img width="322" alt="{02E2FE73-8877-42E6-9DE5-58C920D3D14A}" src="https://github.com/user-attachments/assets/c138b168-7918-41a2-a12c-8f31f8f939d9" />
 
 2️⃣ Define point of view  
 
 (1) North Star Metric
 
-<img width="474" alt="{7C0B8BA0-4E66-4B5D-A2D4-C1B861934E3F}" src="https://github.com/user-attachments/assets/6bc1c95c-8746-49fc-bd04-92350d99ae18" />
+<img width="208" alt="{C76B8C0F-FFB1-4224-B0E1-7712031915A9}" src="https://github.com/user-attachments/assets/6d1e28db-fda3-4e91-9d2a-b148ddba44d0" />
 
 (2) Point of view 
 
-<img width="555" alt="{5085A3E8-8C89-4603-BEAE-5D5D1EB893AD}" src="https://github.com/user-attachments/assets/13d315e1-97ce-4923-b088-f2cd36f6a6c6" />
+<img width="351" alt="{EE391BB0-E21C-4BB0-BA43-E5A6E43ACF94}" src="https://github.com/user-attachments/assets/154e3b98-3269-4b75-b699-995d6c39662c" />
 
 
 3️⃣ Ideate  
 
-<img width="882" alt="{010387AB-97F1-4BDE-8762-A52A614D1685}" src="https://github.com/user-attachments/assets/87d052be-c103-4253-b3a5-d16548acc40f" />
+<img width="432" alt="{F2B06667-9698-4565-B028-D5DCD83045E0}" src="https://github.com/user-attachments/assets/ba5eb8c3-587a-4e71-bd56-fc80bd288d68" />
 
 
 
@@ -172,7 +177,6 @@ This part is presented in Dashboard.
 
 #### 1️⃣ Dashboard 1: Overview
 
-<img width="740" alt="{E843165D-44C6-4C7E-941B-35FDE78B5809}" src="https://github.com/user-attachments/assets/a6d8dd17-6a38-49ca-bfb7-c99d98cdeb97" />
 
 **📌 Analysis 1**
 
