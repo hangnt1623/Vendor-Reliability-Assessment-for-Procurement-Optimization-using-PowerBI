@@ -112,6 +112,8 @@ This project also make other table from these 5 tables, these are:
 - Fields: Purchasing_OrderHeader[OrderDate] to dim_Date[Date]
 - Description: Many purchase orders can occur on the same date, but each date is unique in the dim_Date table. This allows for time-based analysis of orders.
 
+*Others*
+
 (8) Purchasing_ProductVendor and Product_Price (Many-to-Many via ProductID)
 
 (9) Purchasing_OrderDetail and PurchaseOrder (1-1 via PurchaseOrderDetailID)
@@ -126,7 +128,7 @@ Explain the step-by-step approach taken to solve the problem.
 
 (1) 5W1H 
 
-<img width="769" alt="{D7F1D2E4-C029-4F20-A585-07632938B605}" src="https://github.com/user-attachments/assets/4f2f7807-0821-4c6a-aa86-932f576750d5" />
+<img width="888" alt="{16F02EA4-5BC9-4762-9107-0532A29E03CC}" src="https://github.com/user-attachments/assets/51accd24-8b57-47cc-8f64-d5d19770fb51" />
 
 (2) Empathy Map
 
