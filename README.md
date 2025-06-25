@@ -285,7 +285,7 @@ This part is presented in Dashboard.
   + Cost Management Gap: Total procurement costs are volatile and increasing, seemingly decoupled from improving reliability metrics, indicating a lack of cost optimization alongside performance.
 - Opportunity for Proactive, Value-Driven Procurement: The current data allows for a shift from reactive problem-solving to a strategic, predictive, and value-optimizing procurement function.
 
-👉🏻 Based on the insights and findings above, we would recommend Senior Manager to consider the following:  
+**👉🏻 Based on the insights and findings above, we would recommend COO to consider the following:**
 
 - Optimize Shipping Channels:
   + Reallocate volume based on true channel value (including failure costs), not just freight. Reduce reliance on risky Cargo and Overseas for critical items.
