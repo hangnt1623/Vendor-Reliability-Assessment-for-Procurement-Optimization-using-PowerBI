@@ -79,50 +79,6 @@ This project also make other tables from these 5 tables, these are:
 
 <img width="510" alt="{582A5354-C743-4FC7-BABC-F487F2CD043D}" src="https://github.com/user-attachments/assets/ea66fa22-a789-49d6-94f5-4d3be654313c" />
 
- (1) Purchasing_Vendor and Purchasing_OrderHeader
- 
-- Relationship: One-to-Many (1 on Purchasing_Vendor to * on Purchasing_OrderHeader)
-- Fields: Purchasing_Vendor[BusinessEntityID] to Purchasing_OrderHeader[VendorID]
-- Description: A single vendor (from Purchasing_Vendor) can have multiple purchase orders (Purchasing_OrderHeader).
-
-(2) Purchasing_Vendor and Purchasing_ProductVendor
-
-- Relationship: One-to-Many (1 on Purchasing_Vendor to * on Purchasing_ProductVendor)
-- Fields: Purchasing_Vendor[BusinessEntityID] to Purchasing_ProductVendor[BusinessEntityID]
-- Description: A single vendor can supply multiple products (recorded in Purchasing_ProductVendor), or a product can be supplied by multiple vendors but Purchasing_ProductVendor lists vendor-product pairs.
-
-(3) Product_Product and Purchasing_ProductVendor
-- Relationship: One-to-Many (1 on Product_Product to * on Purchasing_ProductVendor)
-- Fields: Product_Product[ProductID] to Purchasing_ProductVendor[ProductID]
-- Description: A single product can be associated with multiple vendors in the Purchasing_ProductVendor table. Combined with relationship 5, this creates a Many-to-Many relationship between Purchasing_Vendor and Product_Product through the Purchasing_ProductVendor bridge table.
-
-
-(4) Purchasing_OrderDetail and Product_Product
-- Relationship: Many-to-One (* on Purchasing_OrderDetail to 1 on Product_Product)
-- Fields: Purchasing_OrderDetail[ProductID] to Product_Product[ProductID]
-- Description: Multiple order detail lines can refer to the same product, but each product is unique in the Product_Product table.
-
-(5) Purchasing_OrderHeader and Purchasing_OrderDetail
-- Relationship: One-to-Many (1 on Purchasing_OrderHeader to * on Purchasing_OrderDetail)
-- Fields: Purchasing_OrderHeader[PurchaseOrderID] to Purchasing_OrderDetail[PurchaseOrderID]
-- Description: A single purchase order header can contain multiple detail lines (items) within that order.
-
-(6)  Purchasing_OrderHeader and ShipMethod
-- Relationship: Many-to-One (* on Purchasing_OrderHeader to 1 on ShipMethod)
-- Fields: Purchasing_OrderHeader[ShipMethodID] to ShipMethod[ShipMethodID]
-- Description: Many purchase orders can use the same shipping method, but each shipping method is unique in the ShipMethod table.
-
-(7) Purchasing_OrderHeader and dim_Date
-- Relationship: Many-to-One (* on Purchasing_OrderHeader to 1 on dim_Date)
-- Fields: Purchasing_OrderHeader[OrderDate] to dim_Date[Date]
-- Description: Many purchase orders can occur on the same date, but each date is unique in the dim_Date table. This allows for time-based analysis of orders.
-
-*Others*
-
-(8) Purchasing_ProductVendor and Product_Price (Many-to-Many via ProductID)
-
-(9) Purchasing_OrderDetail and PurchaseOrder (1-1 via PurchaseOrderDetailID)
-
 ---
 
 ## 🧠 Design Thinking Process  
