@@ -114,15 +114,7 @@ Explain the step-by-step approach taken to solve the problem.
 
 <img width="432" alt="{F2B06667-9698-4565-B028-D5DCD83045E0}" src="https://github.com/user-attachments/assets/ba5eb8c3-587a-4e71-bd56-fc80bd288d68" />
 
-**4️⃣ Prototype and review**
 
-This part is presented in Dashboard.
-
-## ⚒️ Main Process
-
-1️⃣ Data Cleaning & Preprocessing  
-2️⃣ Exploratory Data Analysis (EDA)  
-3️⃣ Power BI Visualization  
 ---
 
 ## 📊 Key Insights & Visualizations  
