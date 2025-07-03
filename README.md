@@ -89,7 +89,7 @@ Explain the step-by-step approach taken to solve the problem.
 
 ***(1) 5W1H*** 
 
-<img width="888" alt="{16F02EA4-5BC9-4762-9107-0532A29E03CC}" src="https://github.com/user-attachments/assets/51accd24-8b57-47cc-8f64-d5d19770fb51" />
+<img width="685" alt="{FB59653B-B620-4EEA-BEDA-7AD02224ED4A}" src="https://github.com/user-attachments/assets/a379e3d4-1109-4388-ac61-713db7ce752a" />
 
 ***(2) Empathy Map & Stakeholder need***
 
