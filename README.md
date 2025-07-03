@@ -77,7 +77,7 @@ This project also make other tables from these 5 tables, these are:
 
 #### 2️⃣ Data Relationships
 
-<img width="510" alt="{582A5354-C743-4FC7-BABC-F487F2CD043D}" src="https://github.com/user-attachments/assets/ea66fa22-a789-49d6-94f5-4d3be654313c" />
+<img width="690" alt="{467EDCAA-DD07-44CE-A217-9064C290F0D5}" src="https://github.com/user-attachments/assets/6c9a784b-3f22-4d44-bac3-a9e95ef7c01f" />
 
 ---
 
@@ -87,32 +87,29 @@ Explain the step-by-step approach taken to solve the problem.
 
 **1️⃣ Empathize**
 
-(1) 5W1H 
+***(1) 5W1H*** 
 
 <img width="888" alt="{16F02EA4-5BC9-4762-9107-0532A29E03CC}" src="https://github.com/user-attachments/assets/51accd24-8b57-47cc-8f64-d5d19770fb51" />
 
-(2) Empathy Map
+***(2) Empathy Map & Stakeholder need***
 
-<img width="744" alt="{57C97CED-896E-4C4C-B992-EC7B95450C31}" src="https://github.com/user-attachments/assets/ba9f9158-33b3-495b-9920-1dd97f2c710b" />
+<img width="685" alt="{50DE9CB0-1E7E-4C7A-877F-5812E419161D}" src="https://github.com/user-attachments/assets/c9e9aaf1-ce3e-4092-a97a-08cc65f6d1e0" />
 
-(3) Stakeholder need
-
-<img width="322" alt="{02E2FE73-8877-42E6-9DE5-58C920D3D14A}" src="https://github.com/user-attachments/assets/c138b168-7918-41a2-a12c-8f31f8f939d9" />
 
 **2️⃣ Define point of view**
 
-(1) North Star Metric
+***(1) North Star Metric***
 
-<img width="208" alt="{C76B8C0F-FFB1-4224-B0E1-7712031915A9}" src="https://github.com/user-attachments/assets/6d1e28db-fda3-4e91-9d2a-b148ddba44d0" />
+<img width="687" alt="{33BF4370-4AF5-4209-A476-092308A558F4}" src="https://github.com/user-attachments/assets/35d5d710-0bca-43d4-878b-3437e7f46a98" />
 
-(2) Point of view 
+***(2) Point of view*** 
 
-<img width="351" alt="{EE391BB0-E21C-4BB0-BA43-E5A6E43ACF94}" src="https://github.com/user-attachments/assets/154e3b98-3269-4b75-b699-995d6c39662c" />
+<img width="690" alt="{1DE6A1C3-F407-439E-9A66-16F9A11482A6}" src="https://github.com/user-attachments/assets/b28b5ee4-ecdc-480b-ac9b-7403436af263" />
 
 
 **3️⃣ Ideate**
 
-<img width="432" alt="{F2B06667-9698-4565-B028-D5DCD83045E0}" src="https://github.com/user-attachments/assets/ba5eb8c3-587a-4e71-bd56-fc80bd288d68" />
+<img width="683" alt="{D4DBDDE5-5757-45CF-AF36-72B7D1507892}" src="https://github.com/user-attachments/assets/19a3ffed-c447-479c-bfba-ebe7b73d1e61" />
 
 
 ---
