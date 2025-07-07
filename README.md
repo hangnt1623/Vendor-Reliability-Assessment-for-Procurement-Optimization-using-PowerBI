@@ -123,7 +123,7 @@ Explain the step-by-step approach taken to solve the problem.
 ### 🔍 Dashboard Preview & Analysis
 
 #### 1️⃣ Dashboard 1: Overview & Trend
-<img width="775" alt="{6AB0649D-4185-4A4D-B00B-6A3BFD9B31CC}" src="https://github.com/user-attachments/assets/0146a5cd-0106-4f56-b931-b7dca2b12e05" />
+<img width="778" alt="{BB77F07F-943A-40AF-AA11-F23F177915B2}" src="https://github.com/user-attachments/assets/b1398822-3b7b-48eb-bec7-cac1c04f6660" />
 
 **📌 Analysis 1**
 
