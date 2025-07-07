@@ -19,11 +19,12 @@
 
 ### Objective:
 ### 📖 What is this project about? 
-This project focuses on building an Operation Dashboard for Adventure Works. The primary goal is to visually assess vendor performance, providing leadership with clear, data-driven insights to optimize procurement and strengthen the supply chain.
-The goal is to
-- Ensure optimal procurement: Get the sufficient goods, delivery on time, at the best price
-- Strengthen the supply chain: Identify and manage top-performing and underperforming suppliers
-- Support data-driven decisions: Empower leadership with clear insights for better purchasing strategies
+This project focuses on building an Operation **Dashboard** for **Adventure Works**. The primary goal is to visually assess **vendor performance**, providing leadership with clear, **data-driven insights** to optimize **procurement** and strengthen the **supply chain**.  
+The goal is to  
+- Ensure **optimal procurement**: Get the **sufficient goods**, **delivery on time**, at the **best price**  
+- Strengthen the **supply chain**: Identify and manage **top-performing** and **underperforming suppliers**  
+- Support **data-driven decisions**: Empower leadership with clear insights for better **purchasing strategies**
+
 
 ### 👤 Who is this project for?  
 
@@ -35,13 +36,14 @@ The goal is to
 
 ###  ❓Business Questions:  
 
-✔️ Assess vendor fulfillment accuracy by analyzing whether suppliers consistently provide the correct and sufficient quantities of goods and materials as ordered
+✔️ Assess **vendor fulfillment accuracy** by analyzing whether suppliers consistently provide the **correct and sufficient quantities** of goods and materials as ordered
 
-✔️ Evaluate vendor delivery performance by understanding how effectively our suppliers are meeting agreed-upon delivery timelines
+✔️ Evaluate **vendor delivery performance** by understanding how effectively our suppliers are meeting **agreed-upon delivery timelines**
 
-✔️ Determine supplier credibility and reliability by examining factors that demonstrate their trustworthiness and consistent adherence to commitments
+✔️ Determine **supplier credibility** and **reliability** by examining factors that demonstrate their **trustworthiness** and consistent adherence to **commitments**
 
-✔️ Optimize procurement costs by analyzing vendor pricing and overall expenditure to ensure the best value for Adventure Works
+✔️ Optimize **procurement costs** by analyzing **vendor pricing** and overall **expenditure** to ensure the **best value** for **Adventure Works**
+
 
 
 ---
@@ -61,18 +63,21 @@ The goal is to
 ### 📊 Data Structure & Relationships  
 
 #### 1️⃣ Tables Used:  
-There are 5 tables in the dataset:
-- Product table: store information about products sold or used in the manfacturing of sold products
-- Purchasing Order Detail table: store information about individual products associated with a specific purchase order
-- Purchasing Order Header table: store information about general purchase order information
-- Purchasing Product Vendor table: store information about cross-reference table mapping vendors with the products they supply
-- Purchasing Vendor table: store information about companies from whom Adventure Works Cycles purchases parts or other goods
+The dataset includes 5 main tables:
 
-This project also make other tables from these 5 tables, these are:
-- Product Price table: store information about product price
-- Purchase Order: store information about individual products associated with a specific purchase order & general purchase order information
-- Date: store information about the date
-- Ship Method: store information about ship method
+- **Product**: Details of products sold or used in manufacturing  
+- **Purchase Order Detail**: Line-item data for each purchase order  
+- **Purchase Order Header**: Overall info for each purchase order  
+- **Product Vendor**: Links vendors to the products they supply  
+- **Vendor**: Information about companies supplying goods
+
+Additional tables derived from the above:
+
+- **Product Price**: Product pricing details  
+- **Purchase Order**: Combined detail and header info  
+- **Date**: Standardized date information  
+- **Ship Method**: Shipping method details
+
 
 #### 2️⃣ Data Relationships
 
@@ -224,24 +229,26 @@ Explain the step-by-step approach taken to solve the problem.
 ## 🔎 Final Conclusion & Recommendations  
 
 **Conclusion**
-- High Baseline, but Hidden Vulnerabilities: While the overall "Vendor Reliability Score" (8.80) is strong and on-time delivery is generally excellent (99.36%), deeper analysis reveals critical vulnerabilities:
-  + Channel-Specific Risks: "Overseas" shipping is a consistent source of delay (83.43% on-time), while "Cargo" is a major source of rejected stock (39.36%) and unexplained high tax costs. These significantly erode true reliability and incur hidden costs.
-  + Vendor-Specific Risks: Isolated, highly unreliable vendors like "Proseware, Inc." (Trust Score 1.25) pose substantial operational and financial risks despite contributing to overall spend.
-  + Cost Management Gap: Total procurement costs are volatile and increasing, seemingly decoupled from improving reliability metrics, indicating a lack of cost optimization alongside performance.
-- Opportunity for Proactive, Value-Driven Procurement: The current data allows for a shift from reactive problem-solving to a strategic, predictive, and value-optimizing procurement function.
+- **High Baseline, but Hidden Vulnerabilities**: While the overall **Vendor Reliability Score** (8.80) is strong and **on-time delivery** is generally excellent (99.36%), deeper analysis reveals **critical vulnerabilities**:  
+  + **Channel-Specific Risks**: "**Overseas**" shipping is a consistent source of **delay** (83.43% on-time), while "**Cargo**" is a major source of **rejected stock** (39.36%) and **unexplained high tax costs**. These significantly erode **true reliability** and incur **hidden costs**.  
+  + **Vendor-Specific Risks**: Isolated, highly **unreliable vendors** like "**Proseware, Inc.**" (**Trust Score** 1.25) pose substantial **operational** and **financial risks** despite contributing to overall **spend**.  
+  + **Cost Management Gap**: Total **procurement costs** are **volatile** and **increasing**, seemingly **decoupled** from improving **reliability metrics**, indicating a lack of **cost optimization** alongside performance.
+
+- **Opportunity for Proactive, Value-Driven Procurement**: The current data allows for a shift from **reactive problem-solving** to a **strategic**, **predictive**, and **value-optimizing** procurement function.
 
 **👉🏻 Based on the insights and findings above, we would recommend COO to consider the following:**
 
-- Optimize Shipping Channels:
-  + Reallocate volume based on true channel value (including failure costs), not just freight. Reduce reliance on risky Cargo and Overseas for critical items.
+- **Optimize Shipping Channels**:  
+  + **Reallocate volume** based on **true channel value** (including **failure costs**), not just freight. Reduce reliance on **risky Cargo** and **Overseas** for **critical items**.
 
-- Tiered Vendor Management:
-  + Categorize vendors (Strategic, At-Risk) using the corrected "Vendor Reliability Score."
-  + For At-Risk vendors: Enforce an "Improve or Exit" policy.
-  + For Strategic vendors: Deepen partnerships for stable supply.
+- **Tiered Vendor Management**:  
+  + **Categorize vendors** (**Strategic**, **At-Risk**) using the corrected **Vendor Reliability Score**.  
+  + For **At-Risk vendors**: Enforce an "**Improve or Exit**" policy.  
+  + For **Strategic vendors**: **Deepen partnerships** for **stable supply**.
 
-- Elevate "Vendor Reliability Score" to Predictive Tool:
-  + Fix scoring logic immediately for absolute reliability.
-  + Integrate forecast and external risk data for the score to predict potential issues early, enabling proactive CPO decisions.
+- **Elevate "Vendor Reliability Score" to Predictive Tool**:  
+  + **Fix scoring logic** immediately for **absolute reliability**.  
+  + **Integrate forecast** and **external risk data** for the score to **predict potential issues early**, enabling **proactive COO decisions**.
+
 
 >**These actions will directly help the COO elevate the "Vendor Reliability Score," control hidden costs, and build a stronger supply chain.**
