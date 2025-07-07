@@ -1,4 +1,4 @@
-# PowerBI_Purchasing_Vendors Assessment
+# Vendor Reliability Assessment for Procurement Optimization using PowerBI
 
 - Author: Nguyen Thuy Hang
 - Date: 2025-06-25
@@ -43,7 +43,6 @@ The goal is to
 
 ✔️ Optimize procurement costs by analyzing vendor pricing and overall expenditure to ensure the best value for Adventure Works
 
-### 🎯Project Outcome:  
 
 ---
 
@@ -119,19 +118,19 @@ Explain the step-by-step approach taken to solve the problem.
 ### 🔍 Dashboard Preview & Analysis
 
 #### 1️⃣ Dashboard 1: Overview & Trend
-<img width="760" alt="{1884184B-17A2-4B8B-8F3F-9C0A8F0DFE0C}" src="https://github.com/user-attachments/assets/8132ef8f-d68e-4e19-ab7d-d01a19bc0322" />
+<img width="607" alt="{6F2246F9-C110-4F7E-AF02-85308436152E}" src="https://github.com/user-attachments/assets/06363a62-635e-411b-bd87-341668200286" />
 
 
 **📌 Analysis 1**
 
 ***Oberservations***
-- Vendor Reliability Score (North Star Metric) is strong but with notable past fluctuations:
-  + Overall, the Vendor Reliability Score is 8.80 and the Vendor Trust Score is very high (9.09), indicating generally good supplier reliability
-  + However, the VENDOR RELIABILITY SCORE OVER TIME chart shows significant drops in Q3 of 2012, despite an impressive recovery afterward.
-
+- Vendor Reliability Score (North Star Metric):
+  + Overall strong (Score: 8.80, Trust Score: 9.09), indicating good supplier reliability. -> Adventure Works generally benefits from a trustworthy and reliable supplier base, which is foundational for stable operations.
+  + ritical Fluctuations: Significant drops in Q1 2011, Q3 2011, and Q4 2014 directly correlate with missing cost data. -> These periods represent significant operational vulnerabilities or data integrity issues. The simultaneous drop in reliability and missing cost data suggests severe disruptions that likely hampered both performance and financial visibility, posing a risk to procurement planning and historical analysis.
+  
 - Key components of the Reliability Score show high performance:
-  + The On-time Delivery Rate is exceptionally good (99.36%)
-  + The Fulfilled Stocks Rate is 96.00% overall, and notably, Rejected Stocks has sharply decreased from high levels (8.16% in 2011, 11.21% in 2012) to less 5%  in 2013 and 2014, demonstrating significant improvement in quantity and quality fulfillment
+  + On-time Delivery Rate is exceptionally good (99.36%) -> This high rate indicates highly effective logistics management and reliable fulfillment of delivery promises by suppliers. It directly supports maintaining production schedules and inventory levels, minimizing operational delays.
+  + Improved Stock Fulfillment: 96.00% fulfilled. Rejected Stocks dramatically decreased from 8.16% (2011) and 11.21% (2012) to <5% (2013-2014). -> The substantial reduction in rejected stocks is a major success in quality and quantity control. This suggests improved supplier vetting, better communication of requirements, or enhanced incoming inspection processes, directly leading to less waste, fewer production stoppages, and better inventory accuracy.
   + The Average Lead Time is 19.45 days, a key contributing factor to the score.
 
 - Clear differentiation in Reliability across vendors and shipping methods:
@@ -140,6 +139,9 @@ Explain the step-by-step approach taken to solve the problem.
 
 - Procurement Costs are volatile and increasing, independent of Reliability Score:
   + Total Cost has sharply increased and fluctuated heavily from mid-2013 to late 2014, despite improvements in the components contributing to the Vendor Reliability Score. This points to a significant cost management challenge not directly reflected in reliability metrics.
+
+- Freight & Tax Dynamics
+  + After Q2 2013, Freight Amount consistently surpassed Tax Amount -> This indicates a shift in cost structure, likely due to increased shipping distances, rising fuel prices, higher volumes, or a reliance on more expensive shipping methods. This trend directly contributes to the overall rising costs and highlights freight as a key area for cost optimization strategies.
 
 ***Recommendations***
 
@@ -150,28 +152,24 @@ Explain the step-by-step approach taken to solve the problem.
 - Set VRS Benchmarks: Define clear performance targets for VRS and its components
 
 
-
-
 #### 2️⃣ Dashboard 2: Detail & Analysis I
-<img width="752" alt="{3A31B8E1-844B-4613-B8D4-F8917375696B}" src="https://github.com/user-attachments/assets/14006539-10b9-4e04-897e-cf590f0df4af" />
+
+<img width="601" alt="{0E53403D-8EF0-4F0E-8395-0ED1694D95AA}" src="https://github.com/user-attachments/assets/545306b1-1141-4510-8e3e-0ef427fe2e06" />
 
 
 **📌 Analysis 2**
 
 ***Oberservations***
 
-- Historical Performance Trends
-  + Ontime Delivery: Consistently at 100% across the board, demonstrating overall strong performance in meeting delivery deadlines
-  + Fulfilled Stocks: Experienced a notable dip in Q1 2013 before recovering and stabilizing at high levels (around 96-97%). This highlights the potential for volatility in stock fulfillment, which could impact vendor reliability.
+- Overall Delivery & Fulfillment:
+  + On-time Delivery: Consistently high (98-100%), demonstrating strong performance in meeting deadlines across most methods.
+  + Fulfilled Stocks: Generally high, but February and August dips highlight recurring volatility that needs investigation.
 
-- Lead Times & On-Time Delivery
-  + Overseas: Significantly longer lead times (17.1 days total) and the only method with a low On-time Delivery Rate (83.43%). This is a major detractor from its reliability
-  + All Other Methods (Cargo, Express, Overnight, Truck): Consistent and shorter lead times (14.0 days total) with perfect 100% On-time Delivery Rates, indicating high reliability in meeting deadlines
-
-- Fulfilled & Rejected Stocks
-  + Cargo: While handling the largest volume of fulfilled stock (31.01%), it also has the highest percentage of rejected stock (39.36%). This indicates a significant quality or accuracy issue that undermines reliability despite on-time delivery
-  + Overseas: Handles the smallest volume of fulfilled stock (10.49%) and has a relatively low rejected stock rate (10.29%). Its primary issue is timing, not necessarily stock accuracy
-  + Overnight: Appears to be the most reliable in terms of stock fulfillment (highest fulfilled rate, lowest rejected rate).
+- Shipping Method Performance
+  + Overseas: The primary reliability bottleneck due to significantly longer lead times (17.1 days total) and the only low On-time Delivery Rate (83.43%). Its issue is timing, not stock accuracy (low rejection rate).
+  + Cargo: Handles the largest fulfilled volume (31.01%) but has an unacceptably high rejection rate (39.36%). This indicates major quality or accuracy issues undermining its value despite on-time delivery.
+  + Other Methods (Express, Overnight, Truck): Exhibit exceptional reliability with 100% On-time Delivery and shorter, consistent lead times (14.0 days total), making them highly efficient.
+  + Overnight: Appears to be the most reliable for stock fulfillment (high fulfilled rate, likely lowest rejected rate), ideal for critical orders.
 
 ***Recommendations***
 - Channel Restructuring & De-risking:
@@ -187,7 +185,9 @@ Explain the step-by-step approach taken to solve the problem.
   + Predictive Analytics: Use data to anticipate risks (e.g., potential delays, stock shortages) before they materialize, enabling proactive decision-making
 
 #### 3️⃣ Dashboard 3: Detail & Analysis II
-<img width="754" alt="{65F1ED17-96B0-419B-9457-02D88364CB64}" src="https://github.com/user-attachments/assets/037e054b-823c-4fa7-bd8f-81aa6d4b07fc" />
+
+<img width="599" alt="{EE9F0177-A9CE-4E63-87D8-49C43D7EE8C9}" src="https://github.com/user-attachments/assets/63490e6a-1637-4f44-bf64-b745ce5d68d8" />
+
 
 **📌 Analysis 3**
 
