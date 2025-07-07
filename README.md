@@ -123,8 +123,7 @@ Explain the step-by-step approach taken to solve the problem.
 ### 🔍 Dashboard Preview & Analysis
 
 #### 1️⃣ Dashboard 1: Overview & Trend
-<img width="607" alt="{6F2246F9-C110-4F7E-AF02-85308436152E}" src="https://github.com/user-attachments/assets/06363a62-635e-411b-bd87-341668200286" />
-
+<img width="775" alt="{6AB0649D-4185-4A4D-B00B-6A3BFD9B31CC}" src="https://github.com/user-attachments/assets/0146a5cd-0106-4f56-b931-b7dca2b12e05" />
 
 **📌 Analysis 1**
 
@@ -159,7 +158,7 @@ Explain the step-by-step approach taken to solve the problem.
 
 #### 2️⃣ Dashboard 2: Detail & Analysis I
 
-<img width="601" alt="{0E53403D-8EF0-4F0E-8395-0ED1694D95AA}" src="https://github.com/user-attachments/assets/545306b1-1141-4510-8e3e-0ef427fe2e06" />
+<img width="772" alt="{6B6D63D1-2BFF-4ED9-BB6D-B6DF402B0EB9}" src="https://github.com/user-attachments/assets/4360c852-01f4-4d9d-9da0-d1feb7083a64" />
 
 
 **📌 Analysis 2**
@@ -191,7 +190,7 @@ Explain the step-by-step approach taken to solve the problem.
 
 #### 3️⃣ Dashboard 3: Detail & Analysis II
 
-<img width="599" alt="{EE9F0177-A9CE-4E63-87D8-49C43D7EE8C9}" src="https://github.com/user-attachments/assets/63490e6a-1637-4f44-bf64-b745ce5d68d8" />
+<img width="768" alt="{064A099A-F36E-42A9-AA21-9E3B3069121E}" src="https://github.com/user-attachments/assets/6bb51078-052f-4264-8ab7-17e76983bf33" />
 
 
 **📌 Analysis 3**
