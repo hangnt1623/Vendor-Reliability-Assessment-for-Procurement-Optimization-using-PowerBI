@@ -1,4 +1,8 @@
 # Vendor Reliability Assessment for Procurement Optimization using PowerBI
+
+<img width="960" height="540" alt="{2D8C42CE-7553-494D-B98D-B219C9CD2B68}" src="https://github.com/user-attachments/assets/41bbc5d4-3e0f-425c-99a9-8d5defef5eb7" />
+
+
 - **Author**: Nguyen Thuy Hang
 - **Date**: 2025-06-25
 - **Tools Used**: Power BI
