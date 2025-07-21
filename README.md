@@ -1,4 +1,4 @@
-# Vendor Reliability Assessment for Procurement Optimization using PowerBI
+<img width="757" height="417" alt="{B6D7113F-3974-4083-9820-759374FA10BA}" src="https://github.com/user-attachments/assets/72433f67-4071-4207-b1a2-536b8b60e203" /># Vendor Reliability Assessment for Procurement Optimization using PowerBI
 
 - **Author**: Nguyen Thuy Hang
 - **Date**: 2025-06-25
@@ -124,7 +124,7 @@ Explain the step-by-step approach taken to solve the problem.
 
 #### 1️⃣ Dashboard 1: Overview & Trend
 
-<img width="767" height="417" alt="{815E0C32-72BC-4962-9D11-F2653654A999}" src="https://github.com/user-attachments/assets/711c393b-2792-476b-91c6-2cb6ca54d129" />
+<img width="757" height="417" alt="{B6D7113F-3974-4083-9820-759374FA10BA}" src="https://github.com/user-attachments/assets/b0cc8039-ff12-4375-b5b2-00563ef5136f" />
 
 
 **📌 Analysis 1**
@@ -192,7 +192,7 @@ Explain the step-by-step approach taken to solve the problem.
 
 #### 3️⃣ Dashboard 3: Detail & Analysis II
 
-<img width="766" height="417" alt="{BDFFF827-CF6F-4136-9B34-4CFE09A463BA}" src="https://github.com/user-attachments/assets/2423c998-f267-4d3c-98a4-f103bd953881" />
+<img width="759" height="417" alt="{A4D36DE0-00C3-42DA-8B4D-88779F6421E3}" src="https://github.com/user-attachments/assets/fda6a2e9-ca57-4257-9e90-b7135adbf725" />
 
 
 **📌 Analysis 3**
