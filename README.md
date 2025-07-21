@@ -1,5 +1,4 @@
-<img width="757" height="417" alt="{B6D7113F-3974-4083-9820-759374FA10BA}" src="https://github.com/user-attachments/assets/72433f67-4071-4207-b1a2-536b8b60e203" /># Vendor Reliability Assessment for Procurement Optimization using PowerBI
-
+# Vendor Reliability Assessment for Procurement Optimization using PowerBI
 - **Author**: Nguyen Thuy Hang
 - **Date**: 2025-06-25
 - **Tools Used**: Power BI
@@ -160,7 +159,7 @@ Explain the step-by-step approach taken to solve the problem.
 
 #### 2️⃣ Dashboard 2: Detail & Analysis I
 
-<img width="766" height="419" alt="{867DE10B-935F-4C54-AD67-82856C03660E}" src="https://github.com/user-attachments/assets/08545ae9-69ed-46f5-9682-2327a3fa2aff" />
+<img width="753" height="414" alt="{4BD92E45-D8D6-4625-84DA-92A08D145A6E}" src="https://github.com/user-attachments/assets/8635e066-77d0-4ad1-a8f8-5dbc2ed495f3" />
 
 
 **📌 Analysis 2**
